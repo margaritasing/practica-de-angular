@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    
+}
+
+.container {
+   width: 100%;
+}
+
+  .espacio-entre-section{
+      margin: 10px 0 10px 0;
+  }
+
+
+.nav{   
+    color: black;
+    
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+
+ul {
+   display: flex;
+   justify-content: flex-start;
+   list-style-type: none;    
+    margin-top: 5px;    
+    padding: 0;   
+  }
+
+  li {
+    display: inline;
+    margin: 10px;
+  }
+
+ a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header img{   
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+ }
+
+ .contenedor-imagen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-imagen{
+    width: 100%;
+    height: 350px;
+    margin: 95px 0 30px 0;
+  
+}
+
+.contenedor-imagen img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.imagen1{
+    margin: 10px;
+    width: 20%;
+}
+
+.imagen1 h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.imagen1 p{
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.button1 {
+  border-radius: 12px;
+  padding: 15px 32px;
+  margin: 15px;
+  text-align: center;       
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color:black;
+  color: wheat;
+}
+
+.imagen-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 10px 30px 0;
+  width: 100%;
+}
+
+
+.imagen-1 img{
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-right: 15px;
+}
+
+.imagen-1 p{
+  width: 50%;
+  margin: 0 20px 0 20px;
+  text-align: justify;
+  text-indent: 40px;
+}
+
+.imagen-2{
+  margin-left: 30px;
+}
+
+.footer-content-divider {  
+    display: flex;    
+    justify-content: space-between;
+    background-color: #000;   
+    height: 80px;
+    width: 100%;
+    color: antiquewhite;
+}
+
+
+.social-media{   
+    margin: 10px;
+}
+
+.social-media ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;  
+    margin: 0 10px 30px 0; 
+
+}
+
+.social-icons li {
+    margin: 10px;
+}
+
+
+
+.social-icons i {      
+    font-size: 20px; 
+    border-radius: 50%; 
+    color: aliceblue; 
+    
+}
+
+
+  @media screen and (min-width: 280px) and (max-width: 720px) {
+  
+ 
+   
+  }
